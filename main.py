@@ -39,13 +39,13 @@ pixelArray = [[bg_color for i in range(length)]for j in range(length)]
 
 mirror = False
 
-brush_tool_img = pygame.image.load('C:\\Users\\Krishna Sai\\Desktop\\Paint2\\brush_tool.png')
-paint_bucket_tool_img = pygame.image.load('C:\\Users\\Krishna Sai\\Desktop\\Paint2\\paint_bucket_tool.png')
-eraser_tool_img = pygame.image.load('C:\\Users\\Krishna Sai\\Desktop\\Paint2\\eraser_tool.png')
-color_picker_tool_img = pygame.image.load('C:\\Users\\Krishna Sai\\Desktop\\Paint2\\color_picker_tool.png')
-multicolor_img = pygame.image.load('C:\\Users\\Krishna Sai\\Desktop\\Paint2\\custom_color_icon.jpg')
-check_img = pygame.image.load('C:\\Users\\Krishna Sai\\Desktop\\Paint2\\check.png')
-icon_img = pygame.image.load('C:\\Users\\Krishna Sai\\Desktop\\Paint2\\PaintIcon.png')
+brush_tool_img = pygame.image.load('brush_tool.png')
+paint_bucket_tool_img = pygame.image.load('paint_bucket_tool.png')
+eraser_tool_img = pygame.image.load('eraser_tool.png')
+color_picker_tool_img = pygame.image.load('color_picker_tool.png')
+multicolor_img = pygame.image.load('custom_color_icon.jpg')
+check_img = pygame.image.load('check.png')
+icon_img = pygame.image.load('PaintIcon.png')
 icon_img.set_colorkey((0, 0, 0))
 pygame.display.set_icon(icon_img)
 
